@@ -1,4 +1,5 @@
 # https://github.com/Nuitka/Nuitka/issues/3098
+# report: requests module does not work with Nuitka
 
 import requests
 

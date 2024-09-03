@@ -41,4 +41,4 @@ jobs:
 
 
       - name: Build with Nuitka
-        run: python -m nuitka --onefile --remove-output --disable-ccache --run --assume-yes-for-downloads main.py
+        run: python -m nuitka --standalone --lto=yes --remove-output --disable-ccache --run --assume-yes-for-downloads main.py
