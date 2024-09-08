@@ -1,7 +1,5 @@
-# https://github.com/Nuitka/Nuitka/issues/3098
-# report: requests module does not work with Nuitka
+# Internal testing
+from cryptography.fernet import Fernet
 
-import requests
-
-response = requests.get("https://www.example.com")
-print(response.text)
+key = Fernet.generate_key()
+print(key)
